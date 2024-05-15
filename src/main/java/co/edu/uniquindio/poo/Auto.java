@@ -1,11 +1,8 @@
 package co.edu.uniquindio.poo;
 
 public class Auto extends Vehiculo {
-    public Auto(String placa, String propietario){
-        this.placa=placa;
-        this.propietario=propietario;
 
-
-
+    public Auto(String placa, String modelo, Propietario propietario) {
+        super(placa, modelo, propietario);
     }
 }
